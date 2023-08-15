@@ -20,6 +20,7 @@
 		90A5F05B2A8AADD700ECE789 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A5F05A2A8AADD700ECE789 /* Double.swift */; };
 		90A5F05D2A8AE29500ECE789 /*  HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A5F05C2A8AE29500ECE789 /*  HomeViewModel.swift */; };
 		90A5F0602A8BBE9700ECE789 /* CoinDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A5F05F2A8BBE9700ECE789 /* CoinDataService.swift */; };
+		90A5F0632A8BD2E300ECE789 /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A5F0622A8BD2E300ECE789 /* NetworkingManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		90A5F05A2A8AADD700ECE789 /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
 		90A5F05C2A8AE29500ECE789 /*  HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " HomeViewModel.swift"; sourceTree = "<group>"; };
 		90A5F05F2A8BBE9700ECE789 /* CoinDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDataService.swift; sourceTree = "<group>"; };
+		90A5F0622A8BD2E300ECE789 /* NetworkingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				90A5F01A2A88545000ECE789 /* Core */,
 				90A5F0532A8A833600ECE789 /* Models */,
 				90A5F05E2A8BBE6B00ECE789 /* Services */,
+				90A5F0612A8BD12D00ECE789 /* Utilities */,
 				90A5F0032A884CAA00ECE789 /* Preview Content */,
 			);
 			path = CryptoCoinApp;
@@ -158,6 +161,14 @@
 			path = Services;
 			sourceTree = "<group>";
 		};
+		90A5F0612A8BD12D00ECE789 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				90A5F0622A8BD2E300ECE789 /* NetworkingManager.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -237,6 +248,7 @@
 				90A5F0592A8AAA7200ECE789 /* PreviewProvider.swift in Sources */,
 				90A5F0572A8AA9F600ECE789 /* CoinRowView.swift in Sources */,
 				90A5F05B2A8AADD700ECE789 /* Double.swift in Sources */,
+				90A5F0632A8BD2E300ECE789 /* NetworkingManager.swift in Sources */,
 				90A5EFFE2A884CA900ECE789 /* CryptoCoinAppApp.swift in Sources */,
 				90A5F0602A8BBE9700ECE789 /* CoinDataService.swift in Sources */,
 			);
