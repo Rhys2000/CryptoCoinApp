@@ -22,7 +22,7 @@ struct HomeView: View {
             VStack {
                 homeHeader
                 
-                listHeader
+                listHeader 
                 
                 if(!showPortfolio) {
                     coinList
