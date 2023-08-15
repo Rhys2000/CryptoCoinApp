@@ -24,6 +24,7 @@
 		90A5F0662A8BE5FC00ECE789 /* CoinImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A5F0652A8BE5FC00ECE789 /* CoinImageView.swift */; };
 		90A5F0682A8BE80B00ECE789 /* CoinImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A5F0672A8BE80B00ECE789 /* CoinImageService.swift */; };
 		90A5F06A2A8BEFBF00ECE789 /* CoinImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A5F0692A8BEFBF00ECE789 /* CoinImageViewModel.swift */; };
+		90A5F06C2A8BFA0500ECE789 /* LocalFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A5F06B2A8BFA0500ECE789 /* LocalFileManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		90A5F0652A8BE5FC00ECE789 /* CoinImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinImageView.swift; sourceTree = "<group>"; };
 		90A5F0672A8BE80B00ECE789 /* CoinImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinImageService.swift; sourceTree = "<group>"; };
 		90A5F0692A8BEFBF00ECE789 /* CoinImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinImageViewModel.swift; sourceTree = "<group>"; };
+		90A5F06B2A8BFA0500ECE789 /* LocalFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFileManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,6 +175,7 @@
 			isa = PBXGroup;
 			children = (
 				90A5F0622A8BD2E300ECE789 /* NetworkingManager.swift */,
+				90A5F06B2A8BFA0500ECE789 /* LocalFileManager.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 				90A5F05D2A8AE29500ECE789 /*  HomeViewModel.swift in Sources */,
 				90A5F0192A88501000ECE789 /* Color.swift in Sources */,
 				90A5F0222A88713000ECE789 /* CircleButtonView.swift in Sources */,
+				90A5F06C2A8BFA0500ECE789 /* LocalFileManager.swift in Sources */,
 				90A5F0552A8A850800ECE789 /* Coin.swift in Sources */,
 				90A5F0592A8AAA7200ECE789 /* PreviewProvider.swift in Sources */,
 				90A5F0572A8AA9F600ECE789 /* CoinRowView.swift in Sources */,
